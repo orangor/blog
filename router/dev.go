@@ -5,7 +5,7 @@ package router
 import (
 
 	// docs
-	_ "blog/docs"
+	//_ "blog/docs"
 	"bytes"
 	"log"
 	"os"
