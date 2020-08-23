@@ -30,7 +30,7 @@ func RegDocs(engine *echo.Echo) {
 	engine.GET("/swagger/*", echoSwagger.EchoWrapHandler(docUrl))
 }
 
-// midLogger 中间件-日志记录
+// midLogger 中间件-日志记录ls
 func midLogger(next echo.HandlerFunc) echo.HandlerFunc {
 	return func(ctx echo.Context) (err error) {
 		start := time.Now()

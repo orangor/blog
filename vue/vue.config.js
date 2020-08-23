@@ -35,7 +35,7 @@ module.exports = {
 	// https://cli.vuejs.org/zh/config/#devserver
 	devServer: {
 		// 环境配置
-		host: "127.0.0.1",
+		host: "localhost",
 		port: 8080,
 		https: false,
 		// 没有页面刷新的情况下启用热模块替换
