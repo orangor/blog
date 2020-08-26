@@ -2,7 +2,7 @@
 title = "blog"
 explain = "zxysilent个人blog"
 mode = "dev"
-addr = ":88"
+addr = "http://127.0.0.1:8032"
 srv = "http://127.0.0.1:8085"
 
 jwtkey = "12345876"
